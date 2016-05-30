@@ -1,0 +1,28 @@
+{
+  "name": "simple-marketplace-ui",
+  "version": "0.0.1",
+  "description": "Cliente web para bileltera.saldosdigitales.com",
+  "repository": "none",
+  "licence": "PRIVATE",
+  "devDependencies": {
+    "assetsmanager-brunch": "^1.8.1",
+    "auto-reload-brunch": "latest",
+    "bower": "latest",
+    "brunch": "^2.5.3",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "latest",
+    "html2js-brunch": "^0.0.5",
+    "jade-brunch": "^2.0.0",
+    "jaded-brunch": "^2.2.4",
+    "javascript-brunch": "^2.0.0",
+    "jshint-brunch": "^2.0.0",
+    "json-brunch": "^1.5.4",
+    "sass-brunch": "^2.0.0",
+    "uglify-js-brunch": "^2.0.1"
+  },
+  "scripts": {
+    "postinstall": "bower install",
+    "start": "brunch watch --server"
+  },
+  "dependencies": {}
+}
